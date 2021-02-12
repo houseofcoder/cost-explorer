@@ -41,7 +41,7 @@ class Explorer extends Controller
         $response = $this->formatResponse( $projects, $client_ids, $cost_types);
 
         if(count($response) > 0) {
-            return response()->json($response);
+            return response()->json(["data"=>$response]);
         }
 
         // Default response if no result found 
