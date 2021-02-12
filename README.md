@@ -3,7 +3,7 @@
 ## Usage
 
 ### Configure and Start Laravel App
-Once you are in prject folder run below commands to setup application.
+**Once you are in prject folder run below commands to setup application.**  
 composer install  
 cp .env.example .env (Configure database connection in .env file)  
 php artisan serve  
