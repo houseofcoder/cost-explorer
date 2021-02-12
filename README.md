@@ -2,7 +2,7 @@
 
 ## Usage
 
-## Configure and Start Laravel App
+### Configure and Start Laravel App
 Setup database using file present upder <em>storage/dumps/mysql-dump.sql</em>  
 
 **Once you are in project folder run below commands to setup application.**  
