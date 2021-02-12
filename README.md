@@ -2,8 +2,11 @@
 
 ## Usage
 
-### Start Laravel App
-php artisan serve
+### Configure and Start Laravel App
+Once you are in prject folder run below commands to setup application.
+composer install  
+cp .env.example .env (Configure database connection in .env file)  
+php artisan serve  
 
 ### Test API routes [Change the port accordingly]
 **Endpoint:** http://127.0.0.1:8000/api/explorer  
