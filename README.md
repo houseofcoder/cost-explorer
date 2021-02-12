@@ -6,8 +6,8 @@
 php artisan serve
 
 ### Test API routes [Change the port accordingly]
-- Endpoint: http://127.0.0.1:8000/api/explorer  
-  Output: Cost data of all the clients and their projects  
+**Endpoint:** http://127.0.0.1:8000/api/explorer  
+**Output:** Cost data of all the clients and their projects  
  
 - http://127.0.0.1:8000/api/explorer?client_id[]=1&client_id[]=2 
 - http://127.0.0.1:8000/api/explorer?cost_type_id[]=1&cost_type_id[]=10 
